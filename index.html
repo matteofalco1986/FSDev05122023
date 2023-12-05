@@ -5,24 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form e timer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+        defer></script>
     <script src="assets/index.js" defer></script>
     <script src="assets/index2.js" defer></script>
 </head>
 
 <body>
-    <div>
-        <p></p>
-    </div>
-    <form action="">
-        <label for="inputName">Name</label>
-        <input type="text" placeholder="Type your name" id="inputName">
-        <button class="save">Salva</button>
-        <button class="delete">Elimina</button>
-    </form>
-    <div>
-        <p class="counter"></p>
-        <button type="button" class="clearCounter">Reset counter</button>
+    <div class="mainPage d-flex justify-content-center align-items-center">
+        <div>
+            <div class="d-flex flex-column align-items-center" id="ex1">
+                <div>
+                    <p></p>
+                </div>
+                <form action="#" id="nameForm">
+                    <div class="d-flex flex-column align-items-center">
+                        <label for="inputName">Name</label>
+                        <input type="text" placeholder="Type your name" id="inputName" class="">
+                    </div>
+                    <div class="d-flex justify-content-center gap-4">
+                        <button class="save btn btn-info text-white">Salva</button>
+                        <button class="delete btn btn-info text-white">Elimina</button>
+                    </div>
+                </form>
+            </div>
+            <div class="d-flex flex-column align-items-center" id="ex2">
+                <h2 class="mb-3">Questo invece è un contatore</h2>
+                <p class="counter"></p>
+                <button type="button" class="clearCounter btn btn-warning">Reset counter</button>
+            </div>
+        </div>
     </div>
 </body>
 

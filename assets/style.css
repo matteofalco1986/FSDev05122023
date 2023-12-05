@@ -1,0 +1,49 @@
+* {
+    margin-bottom: 20px;
+}
+
+body {
+    text-align: center;
+    color: aliceblue;
+    background-color: #313131;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    margin-bottom: 10px;
+    background: yellow;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+
+p {
+    font-size: 3rem;
+    padding: 20px;
+}
+
+p:nth-child(1) {
+    border: 2px solid rgb(48, 165, 255);    
+}
+
+#ex1, #ex2 {
+    border: 2px solid rgb(0, 145, 255);
+    padding: 30px;
+    border-radius: 20px;    
+}
+
+label {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.mainPage {
+    padding: 40px;
+
+}
+
+button {
+    font-weight: bold;
+}
